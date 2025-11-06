@@ -46,3 +46,11 @@ catalyst deploy
 
 and watch your serverless city go live — BOOM 💥
 Welcome to the future of lightweight, powerful cloud apps. 🌍✨
+
+
+🌐 Live Demo
+
+🚀 Currently Deployed Here:
+👉 https://aliencity-60057364050.development.catalystserverless.in/app/index.html
+
+(This version is hosted on Zoho Catalyst’s development environment using my available project credits — not sure how long it’ll stay live, so feel free to check it out while it lasts!) ⏳💫
