@@ -17,10 +17,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
     <script src="main.js"></script>
 </head>
 
 <body>
+    <!-- VHS/CRT Effect Elements -->
+    <div class="scanlines"></div>
+    <div class="intro-wrap">
+        <div class="noise"></div>
+        <div class="noise noise-moving"></div>
+    </div>
+
     <br>
     <br>
     <center>
@@ -47,8 +55,13 @@
                         <input type="text" class="form-control" id="city-get-input" aria-describedby="checkCity"
                             placeholder="Enter City Name">
                     </div>
-                    <button type="submit" class="btn btn-primary"
-                        onclick="getAlienEncounter();return false;">Check</button>
+                    <button type="submit" class="btn btn-primary" onclick="getAlienEncounter();return false;">
+                        <div class="btn-wrapper">
+                            <div class="btn-inner">
+                                <div class="btn-text">Check</div>
+                            </div>
+                        </div>
+                    </button>
                 </form>
                 <br>
                 <br>
@@ -77,8 +90,13 @@
                                 placeholder="Enter City Name">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary"
-                        onclick="postAlienEncounter();return false;">Report</button>
+                    <button type="submit" class="btn btn-primary" onclick="postAlienEncounter();return false;">
+                        <div class="btn-wrapper">
+                            <div class="btn-inner">
+                                <div class="btn-text">Report</div>
+                            </div>
+                        </div>
+                    </button>
                 </form>
             </div>
         </div>

@@ -1,0 +1,119 @@
+[debug] [2025-11-06T06:46:30.116Z] : 
+[debug] [2025-11-06T06:46:30.118Z] : ----------------------------------------------------------------------
+[debug] [2025-11-06T06:46:30.118Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Bhavish K\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-11-06T06:46:30.118Z] : CLI Version:  1.21.0
+[debug] [2025-11-06T06:46:30.118Z] : Platform:     win32
+[debug] [2025-11-06T06:46:30.118Z] : Node Version: v22.15.0
+[debug] [2025-11-06T06:46:30.118Z] : Time:         Thu Nov 06 2025 12:16:30 GMT+0530 (India Standard Time)
+[debug] [2025-11-06T06:46:30.118Z] : ----------------------------------------------------------------------
+[debug] [2025-11-06T06:46:30.119Z] : 
+[debug] [2025-11-06T06:46:30.423Z] : > authorizing via signed-in user option
+[debug] [2025-11-06T06:46:30.424Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-11-06T06:46:30.433Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141 
+
+[debug] [2025-11-06T06:46:30.578Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 06:46:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T06:46:30.580Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141/environment 
+
+[debug] [2025-11-06T06:46:30.631Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 06:46:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T06:46:30.783Z] : Build folder already exists, starting cleanup
+[debug] [2025-11-06T06:46:30.801Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-11-06T06:46:30.841Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 06:46:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T06:46:30.843Z] : unknown eol undefined hence skipping check
+[info] [2025-11-06T06:46:31.034Z] : Compiling E:\democatalyst\functions\AlienCityAIO\AlienCityAIO.java
+[info] [2025-11-06T06:46:32.854Z] : 
+[info] [2025-11-06T06:46:32.854Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-11-06T06:46:32.854Z] : ℹ AlienCityAIO: http://localhost:3000/server/AlienCityAIO/
+[info] [2025-11-06T06:46:32.854Z] : 
+[info] [2025-11-06T06:46:32.854Z] : 
+[info] [2025-11-06T06:46:32.855Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-11-06T06:46:32.855Z] : ℹ client[ALcity]: http://localhost:3000/app/
+[info] [2025-11-06T06:46:32.855Z] : 
+[info] [2025-11-06T06:50:51.086Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:51:06.173Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:51:14.382Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2025-11-06T06:51:20.661Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:53:17.251Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:53:25.940Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:53:35.906Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:55:40.047Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:55:51.411Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:56:37.068Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:56:37.163Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2025-11-06T06:57:52.708Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2025-11-06T06:58:47.085Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T06:59:33.183Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:00:53.267Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:00:55.326Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:00:57.378Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:00:59.438Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:01:01.473Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:13.544Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2025-11-06T07:02:13.553Z] : > refreshing access token <
+[debug] [2025-11-06T07:02:13.554Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-11-06T07:02:13.688Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 07:02:13 GMT","content-type":"application/json;charset=UTF-8","content-length":"2419","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-11-06T07:02:15.652Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:17.668Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:19.735Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:21.797Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:23.856Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:25.927Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:54.574Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:02:56.538Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2025-11-06T07:40:51.037Z] : 
+[debug] [2025-11-06T07:40:51.038Z] : ----------------------------------------------------------------------
+[debug] [2025-11-06T07:40:51.038Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Bhavish K\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-11-06T07:40:51.039Z] : CLI Version:  1.21.0
+[debug] [2025-11-06T07:40:51.039Z] : Platform:     win32
+[debug] [2025-11-06T07:40:51.039Z] : Node Version: v22.15.0
+[debug] [2025-11-06T07:40:51.039Z] : Time:         Thu Nov 06 2025 13:10:51 GMT+0530 (India Standard Time)
+[debug] [2025-11-06T07:40:51.039Z] : ----------------------------------------------------------------------
+[debug] [2025-11-06T07:40:51.039Z] : 
+[debug] [2025-11-06T07:40:51.353Z] : > authorizing via signed-in user option
+[debug] [2025-11-06T07:40:51.353Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-11-06T07:40:51.363Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141 
+
+[debug] [2025-11-06T07:40:51.600Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 07:40:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T07:40:51.602Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141/environment 
+
+[debug] [2025-11-06T07:40:51.669Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 07:40:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T07:40:51.829Z] : Build folder already exists, starting cleanup
+[debug] [2025-11-06T07:40:51.845Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/25363000000011141/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-11-06T07:40:51.899Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 06 Nov 2025 07:40:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-11-06T07:40:51.901Z] : unknown eol undefined hence skipping check
+[info] [2025-11-06T07:40:52.123Z] : Compiling E:\democatalyst\functions\AlienCityAIO\AlienCityAIO.java
+[info] [2025-11-06T07:40:53.897Z] : 
+[info] [2025-11-06T07:40:53.897Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-11-06T07:40:53.897Z] : ℹ AlienCityAIO: http://localhost:3000/server/AlienCityAIO/
+[info] [2025-11-06T07:40:53.898Z] : 
+[info] [2025-11-06T07:40:53.898Z] : 
+[info] [2025-11-06T07:40:53.898Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-11-06T07:40:53.898Z] : ℹ client[ALcity]: http://localhost:3000/app/
+[info] [2025-11-06T07:40:53.898Z] : 
+[info] [2025-11-06T07:41:08.204Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:42:23.250Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2025-11-06T07:42:47.291Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:43:03.762Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:44:32.712Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:44:44.711Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:47:52.894Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2025-11-06T07:47:53.702Z] : Change(s) is detected in index.html of the Web-Client.

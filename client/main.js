@@ -1,4 +1,29 @@
 // YOUR JAVASCRIPT CODE FOR INDEX.HTML GOES HERE
+
+// Initialize Splitting.js for text effects
+if (typeof Splitting !== 'undefined') {
+    Splitting();
+}
+
+// Play alien BGM when page loads
+window.addEventListener('DOMContentLoaded', function() {
+    // Create audio element for alien background music
+    const alienBGM = new Audio('https://assets.mixkit.co/active_storage/sfx/2482/2482-preview.mp3');
+    alienBGM.volume = 0.3; // Set volume to 30% for background music
+    alienBGM.loop = true; // Loop the music continuously
+    
+    // Try to play the BGM
+    // Note: Some browsers require user interaction before playing audio
+    alienBGM.play().catch(function(error) {
+        console.log('🛸 Alien BGM autoplay was prevented. Click anywhere to start the music!');
+        // If autoplay fails, play on first user interaction
+        document.body.addEventListener('click', function playOnClick() {
+            alienBGM.play();
+            console.log('🎵 Alien BGM started!');
+        }, { once: true });
+    });
+});
+
 // Fires an API call to the server and adds the reported city as an alien city
 function postAlienEncounter() {
     var city = $("#city-post-input").val();
